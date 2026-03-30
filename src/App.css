@@ -64,3 +64,14 @@ body {
   height: 30px;
   margin-right: 0.5rem;
 }
+
+.startText {
+  font-size: 1.5rem;
+  text-align: left;
+  width: calc(100% - 2.5rem);
+  padding-top: 0.2rem;
+}
+
+.hidden {
+  display: none;
+}

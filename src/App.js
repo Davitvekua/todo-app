@@ -42,6 +42,9 @@ function App() {
   return (
     <div className="App">
       <InputEndButton addTodo={addTodo} />
+      <div className={`startText ${todos.length > 0 ? "hidden" : ""}`}>
+        Noch nichts gespeichert
+      </div>
 
       {todos.map((todo) => (
         <TodoEl
